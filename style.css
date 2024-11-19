@@ -1,0 +1,275 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:oswald; 
+}
+body{
+   overflow-x: hidden;
+}
+
+.top-nav{
+   height: 115px;
+   margin: 0;
+   background-color: #ef9c83;
+   font-family:  Arial;
+   font-size: 20px;
+   font-style: initial;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 10;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #fff;
+}
+
+.img-logo{
+   width:120px;
+   height:90px ;
+   padding-left: 30px;
+   padding-top: 10px;
+
+}
+.top-nav-left{
+   flex: 1;
+}
+.top-nav-right{
+   flex: 1;
+   
+}
+.border{
+   padding-left: 100px;
+}
+.product-link{
+   color:white ;
+   text-decoration: none; 
+   position: relative;
+   top: 29px;
+   padding-bottom:30px ;
+   padding: 17px;
+   font-size: 22px;
+   z-index: 10;
+}
+
+.product-link:hover{
+   text-decoration:underline;
+   color: white;
+}
+
+.logos {
+   padding-left: 520px;
+   color: #fff;
+   padding-bottom: 30px;
+   display: flex;
+}
+
+.logos-img{
+   height: 29px;
+   width: 29px;
+   margin-right: 3px;
+}
+.first-page{
+   position: relative;
+   font-size: 40px;
+   font-family: oswald;
+   color:white;
+   width: 100%;
+   margin-top: 115px;
+}
+
+.para-one{
+   color:white;
+   padding: 50px;
+}
+.up-one{
+
+   width: 100%;
+   margin-bottom: -519px;
+}
+.paragraph{
+   position: relative;
+   bottom: 90px;
+   left:200px ;
+   z-index:5;
+   font-style: oswald;
+   font-weight: 150px;
+   font-size: 60px;
+}
+.button{
+   position: relative;
+   bottom: 50px;
+   left:10px; 
+   height: 40px;
+   width: 150px;
+   font-style: oswald ;
+   font-size: 25px;
+   font-weight: 350px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+
+   border-radius: 50px;
+  
+}
+.sec-page{
+   position: relative;
+   font-size: 50px;
+   font-family: oswald;
+   color:white;
+   width: 100%;
+   border-bottom: 10px;
+}
+.up-one1{
+   width: 100%;
+   margin-bottom: -163px;
+   margin-top: 242px;
+   background-position: center;
+}
+#third{
+   color: white;
+   position: absolute;
+   bottom: 202px;
+   left: 48%;
+   z-index: 5;
+   font-size: 40px;
+   font-style: oswald;
+   font-weight: 100px;
+}
+#fourth{
+   color: white;
+   position: absolute;
+   bottom: 174px;
+   left: 40%;
+   font-size: 20px;
+   z-index: 5;
+
+}
+.paragraphs{
+   position: relative;
+}
+.background{
+   z-index: 3;
+    position: absolute;
+    bottom: 4px;
+    left: 35px;
+    background-color: green;
+    border-radius: 100px;
+    height: 199px;
+    width: 700px;
+    opacity: 0.8;
+    left: 456px;
+    bottom: 87px;
+}
+.button1{
+   position: absolute;
+   bottom: 128px;
+   left:48%; 
+   height: 40px;
+   width: 150px;
+   font-style: oswald ;
+   font-size: 25px;
+   font-weight: 350px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+   z-index: 5;
+   border-radius: 50px;
+   
+}
+.third-page{
+   font-size: 50px;
+   font-family: oswald;
+   color:white;
+   width: 100%;
+   border-top:10px;
+   
+}
+.up-one2{
+   width: 100%;
+   margin-bottom: -179px;
+   margin-top: 47px;
+   background-position: center;
+
+}
+#fifth{
+   color: white;
+   position: relative;
+   bottom: 219px;
+   left: 38%;
+   z-index: 5;
+   font-size: 40px;
+   font-style: oswald;
+   font-weight: 100px;
+
+}
+#sixth{
+   color: white;
+   position: relative;
+   bottom: 220px;
+   left: 28%;
+   font-size: 20px;
+   z-index: 5; 
+}
+.button2{
+   position: relative;
+   bottom: 233px;
+   left:41%; 
+   height: 40px;
+   width: 150px;
+   font-style: oswald ;
+   font-size: 25px;
+   font-weight: 350px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+   z-index: 5;
+   border-radius: 50px;
+   
+}
+
+.fourth-page{
+   width:100%;
+   height:30px ;
+   background-color: #3e3e3e;
+   font-family: oswald;
+   padding-bottom: 150px;
+   padding-left: 320px;
+}
+.web-link1{
+   color:white ;
+   text-decoration: none; 
+   position: relative;
+   top: 5px;
+   padding-bottom:30px ;
+   padding: 15px;
+   font-size: 13px;
+   z-index: 10;
+   padding-left:10px ;
+}
+.web-link1:hover{
+   text-decoration:underline;
+   color: white;
+}
+.last-para{
+   font-size:12px ;
+   color: #fff;
+   padding-top:20px ;
+   padding-left: 171px;
+}
+#third-background{
+   z-index: 3;
+   position: absolute;
+   bottom: 4px;
+   left: 35px;
+   background-color: green;
+   border-radius: 100px;
+   height: 199px;
+   width: 700px;
+   opacity: 0.8;
+   left: 371px;
+    bottom: -1250px;
+}
